@@ -1,6 +1,6 @@
 {
   "name": "hsk-gt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "description": "HSK Google Translate HTTP Client",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hiskasoft/hiska-react-cc.git"
+    "url": "https://github.com/yracnet/hsk-gt.git"
   },
   "scripts": {
     "build": "tsc && tsc -p tsconfig-cjs.json",
