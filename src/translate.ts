@@ -15,8 +15,6 @@ interface Params {
 }
 
 interface Config {
-  url?: string,
-  method?: string,
   headers?: object,
 }
 
