@@ -1,18 +1,13 @@
 //@ts-ignore
-import nconf from 'nconf'
-//@ts-ignore
 import deep from 'deep-extend'
-import defaultSetting from "./setting.json";
+import setting from "./setting.json";
+interface IMAPPER {
+  [key: string]: string | undefined
+}
 
-nconf
-  .file({ file: 'gt.json', search: true })
-  .defaults(defaultSetting);
-
-
-
-const PARAMS = nconf.get('params');
-const CONFIG = nconf.get('config');
-const MAPPER = nconf.get('mapper');
+const PARAMS = setting.params;
+const CONFIG = setting.config;
+const MAPPER: IMAPPER = setting.mapper;
 
 export const assertParams = (p?: any) => {
   const params = deep(PARAMS, typeof p === 'object' ? p : { q: p })
