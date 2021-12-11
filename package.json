@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
+  "description": "HSK Google Translate HTTP Client",
+  "author": "Willyams Yujra <yracnet@gmail.com>",
   "files": [
     "lib/"
   ],
   "keywords": [
+    "hiska",
     "gt",
     "hsk",
     "Google Translate",
@@ -15,6 +18,10 @@
     "Translate"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hiskasoft/hiska-react-cc.git"
+  },
   "scripts": {
     "build": "tsc && tsc -p tsconfig-cjs.json",
     "start": "reset && tsc src/index.ts",
