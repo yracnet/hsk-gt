@@ -1,5 +1,6 @@
-import { translate } from './translate'
+import { translate, getTranslate } from './translate'
 
 export {
-  translate
+  translate,
+  getTranslate
 }

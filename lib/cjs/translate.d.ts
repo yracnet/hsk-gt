@@ -5,8 +5,6 @@ interface Params {
     hl?: string;
 }
 interface Config {
-    url?: string;
-    method?: string;
     headers?: object;
 }
 export declare const translate: (p: string | Params, c?: Config | undefined) => Promise<string>;
