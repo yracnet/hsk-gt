@@ -18,7 +18,7 @@ run();
 ```js
 import { getTranslate } from 'hsk-gt'
 
-const data = getTranslate({ q: 'Hola', sl: 'es', tl: 'zh' })
+const data = getTranslate({ q: 'Hola', sl: 'es', tl: 'zh-CN' })
 console.log('Hola in ZH: ', data);
 //Hola in ZH: 你好
 

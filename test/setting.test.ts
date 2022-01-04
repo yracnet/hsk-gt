@@ -26,7 +26,7 @@ test("Setting Param Text", () => {
 });
 
 test("Setting Param Object", () => {
-    const p = assertParams({ q: "Hello", tl: 'zh' });
+    const p = assertParams({ q: "Hello", tl: 'zh-CN' });
     expect(p).toMatchObject(
         {
             "hl": "en",

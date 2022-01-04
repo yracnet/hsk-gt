@@ -19,7 +19,7 @@ test("Translate Text EN", (done) => {
 });
 
 test("Translate Text ZN", (done) => {
-    translate({ q: 'Hola', sl: 'es', tl: 'zh' })
+    translate({ q: 'Hola', sl: 'es', tl: 'zh-CN' })
         .then(data => {
             expect(data).toBe('你好');
             done();
@@ -27,7 +27,7 @@ test("Translate Text ZN", (done) => {
 });
 
 test("Translate Text ZN Sync", () => {
-    const data = getTranslate({ q: 'Hola', sl: 'es', tl: 'zh' })
+    const data = getTranslate({ q: 'Hola', sl: 'es', tl: 'zh-CN' })
     expect(data).toBe('你好');
 });
 

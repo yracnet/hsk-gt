@@ -1,25 +1,20 @@
 {
-    "params": {
+    "PARAMS": {
         "q": "",
         "sl": "en",
         "tl": "es",
         "hl": "en"
     },
-    "config": {
-        "headers": {
-            "Host": "translate.google.com",
-            "User-Agent": "BlackBerry8520/5.0.0.680 Profile/MIDP-2.1 Configuration/CLDC-1.0 VendorID/600",
-            "Accept": "text/html",
-            "Accept-Language": "en-US,en;q=0.5",
-            "Accept-Encoding": "gzip, deflate, br",
-            "Alt-Used": "translate.google.com",
-            "Connection": "keep-alive",
-            "Referer": "https://translate.google.com/",
-            "Pragma": "no-cache",
-            "Cache-Control": "no-cache"
-        }
-    },
-    "mapper": {
-        "zh": "zh-CN"
+    "HEADERS": {
+        "Host": "translate.google.com",
+        "User-Agent": "BlackBerry8520/5.0.0.680 Profile/MIDP-2.1 Configuration/CLDC-1.0 VendorID/600",
+        "Accept": "text/html",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Alt-Used": "translate.google.com",
+        "Connection": "keep-alive",
+        "Referer": "https://translate.google.com/",
+        "Pragma": "no-cache",
+        "Cache-Control": "no-cache"
     }
 }
